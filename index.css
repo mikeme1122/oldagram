@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Source Sans Pro', sans-serif;
+    width: 375px;
+    display: block;
+    margin: auto;
+}
+body{
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    
+}
+.line{
+    height: 1px;
+    background-color: lightgray;   
+    margin: 10px 0;
+}
+.myAva,
+.firstUserImg{
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+}
+.topBar{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 15px 15px;
+}
+.metaData{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 7px;
+}
+h1{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+.accountDetails{
+    display: flex;
+}
+.one{
+    width: 375px;
+    height: 375px;
+    background-size: 100%;
+    margin: 10px 0;
+}
+.likeBtn,
+.commentBtn,
+.pmBtn{
+    width: 22px;
+    height: 22px;
+}
+
+.commnets{
+    margin-bottom: 15px;
+}
